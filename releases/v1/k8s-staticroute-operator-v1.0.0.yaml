@@ -176,3 +176,5 @@ spec:
       serviceAccountName: k8s-staticroute-operator
       tolerations:
       - operator: Exists
+      nodeSelector:
+        role: static-route
